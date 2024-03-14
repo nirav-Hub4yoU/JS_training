@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <h1>xml</h1>
+    <button class="btn btn-primary" id="dummy" onclick="getXMLRequest()">
+      XML GET request
+    </button>
+    <button class="btn btn-primary" id="dummy" onclick="getXMLRequestSYNC()">
+      XML GET request
+    </button>
+    <button class="btn btn-primary" id="dummy" onclick="postXMLRequest()">
+      XML Post request
+    </button>
+    <h1>Fetch</h1>
+    <button class="btn btn-primary" id="dummy" onclick="fetchAPI()">
+      GET data by Fetch
+    </button>
+    <button class="btn btn-primary" id="dummy" onclick="fetchAsyncAwait()">
+      GET data by Async
+    </button>
+    <button class="btn btn-primary" id="dummy" onclick="postDataByFetch()">
+      POST data by Fetch
+    </button>
+
+    <!--! jQuery AJax Load data  -->
+    <!-- <div id="loadTxt"></div> -->
+    <script src="app.js"></script>
+  </body>
+</html>

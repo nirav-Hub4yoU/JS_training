@@ -1,0 +1,33 @@
+.showHide{
+    width: 150px;
+    height: 150px;
+    background-color: yellowgreen;
+}
+.redDiv {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    display:none;
+}
+.displayDiv{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    
+}
+
+.orangeDiv {
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+}
+.magentaDiv {
+    background-color: magenta;
+    height: 100px;
+    width: 100px;
+    display:none;
+}
+.slideAmime p{
+    padding: 15px;
+    background: #B0C4DE;
+}
