@@ -1,0 +1,17 @@
+/* .container {
+    font-family: arial;
+    font-size: 24px;
+    margin: 25px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   */
+  .child {
+    width: 100px;
+    height:100px;
+    margin: 20px;
+    background-color: red;
+  }

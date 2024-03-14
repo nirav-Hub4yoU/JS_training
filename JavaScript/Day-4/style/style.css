@@ -1,0 +1,9 @@
+body{
+  text-align: center;
+}
+.prompt .prompt-text{
+margin-top: 20px;
+border-radius: 20px;
+text-align: center;
+font-size: 32px;
+}
